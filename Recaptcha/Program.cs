@@ -10,7 +10,7 @@ namespace Recaptcha
             builder.Services.AddStackExchangeRedisCache(o => 
             { 
                 o.InstanceName = "id_";
-                o.Configuration = "localhost:32768,password=redispw";
+                o.Configuration = "oregon-redis.render.com:6379,user=red-cgjjjgjhp8u4muavbfug,password=ayOVYqJqInoRhwVmYIJsF1UtUYdr72Uc,ssl=True";
             });
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
